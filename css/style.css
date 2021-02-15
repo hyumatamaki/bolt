@@ -2,7 +2,7 @@ body {
   font-family: "lato";	
 }
 
-h1,h2,h3 {
+.is-raleway {
   font-family: "Raleway";
 }
 
@@ -104,14 +104,14 @@ h1,h2,h3 {
   margin-top: 40px;
 }
 
-.content__item ul li {
+.content__item__wrap li {
   line-height: 0;
   opacity: 0.7;
   text-align: center;
   transition: 0.3s;
 }
 
-.content__item ul li:hover {
+.content__item__wrap li:hover {
   opacity: 1;
 }
 
@@ -188,6 +188,10 @@ h1,h2,h3 {
   height: 115px;
 }
 
+.nav ul a{
+  text-decoration: none;
+}
+
 .footer {
   background-color:#74cfae;
 }
@@ -254,13 +258,13 @@ h1,h2,h3 {
     justify-content: center;
   }
 
-  .content__item li {
+  .content__item__wrap li {
     float: left;
     margin-right: 100px;
     margin-bottom: 80px;
   }
 
-  .content__item ul li:nth-child(3n) {
+  .content__item__wrap li:nth-child(3n) {
     margin-right: 0;
   }
 
@@ -282,7 +286,7 @@ h1,h2,h3 {
     margin-left: 90px;
   }
 
-  .content__item__btn ul li {
+  .content__item__btn a {
     float:left;
   }
 
@@ -354,7 +358,7 @@ h1,h2,h3 {
     margin-bottom: 20px;
   }
 
-  .content__item ul li:nth-child(3n) {
+  .content__item__wrap li:nth-child(3n) {
     margin-bottom: 80px;
   }
 
@@ -438,7 +442,7 @@ h1,h2,h3 {
     margin-top: 40px;
   }
 
-  .content__item ul li:nth-child(3n) {
+  .content__item__wrap li:nth-child(3n) {
     margin-bottom: 80px;
   }
 
