@@ -44,7 +44,6 @@ body {
 
 .header-inner__btn {
   float: right;
-  font-size: 12px;
 }
 
 .main {
@@ -231,6 +230,7 @@ body {
     color: #fff;
     display: block;
     font-weight: bold;
+    font-size: 12px;
     padding: 14px 12px;
     text-decoration: none;
     transition: 0.3s;
@@ -333,16 +333,12 @@ body {
   .show-sp {display: none !important;}
   .show-tab {display: block !important;}
 
-  .header-inner__btn {
-    background-color: #74cfae;
-    display: inline-block;
-    font-size: 12px;
-    font-weight: bold;
-  }
-
   .header-inner__btn a {
+    background-color: #74cfae;
     color: #fff;
     display: block;
+    font-weight: bold;
+    font-size: 12px;
     padding: 14px 12px;
     text-decoration: none;
     transition: 0.3s;
