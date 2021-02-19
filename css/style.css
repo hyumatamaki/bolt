@@ -1,5 +1,6 @@
 body {
   font-family: "lato";	
+  background-color: #f2f2f2;
 }
 
 .is-raleway {
@@ -276,7 +277,7 @@ body {
   }
 
   .content__item__wrap a {
-    padding-top: 281px;
+    display: inline-block;
   }
 
   .content__detail {
