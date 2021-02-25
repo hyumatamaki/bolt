@@ -132,13 +132,14 @@
   .description-title {
     color: #fff;
     font-size: 24px;
-    margin: 20px 0 35px 0;
+    margin-top: 20px;
   }
 
   .description-title-lead {
     color: #fff;
     font-size: 20px;
     line-height: 1.5;
+    margin-top: 35px;
   }
 
   .content-inner {
@@ -147,11 +148,11 @@
 
   .content-heading__text {
     font-size: 24px;
-    margin: 10px 0 40px;
+    margin-top: 10px;
   }
 
   .content__item__wrap {
-
+    margin-top: 40px;
   }
 
   .content__item__wrap li {
@@ -186,7 +187,6 @@
 
   .content-headline {
     line-height: 1.5;
-    /* margin-top: 90px; */
   }
 
   .content-headline__text {
@@ -194,7 +194,6 @@
   }
 
   .content__item__btn {
-    /* margin-top: 90px; */
     margin-left: 90px;
   }
 
@@ -224,7 +223,7 @@
   .content__list__text {
     color: #fff;
     font-size: 20px;
-    margin: 20px 0 40px 0;
+    margin-top: 20px;
   }
 
   .content__skill .item-wrap figcaption {
@@ -236,6 +235,7 @@
   .content__skill .item-wrap {
     display: flex;
     justify-content: space-around;
+    margin-top: 40px;
   }
 
   .nav-inner__btn {
@@ -244,18 +244,24 @@
     padding: 200px 0;
   }
 
-  .nav-inner__btn .sns {
+  .nav-inner__btn li {
     background: transparent;
     color: #74cfae;
+    display: block;
     transition: 0.3s;
-    padding: 30px 0;
     width: 185px;
   }
 
-  .nav-inner__btn .sns:hover {
+  .nav-inner__btn li:hover {
     background-color: #fff;
     color: #74cfae;
     cursor: pointer;
+  }
+
+  .nav-inner__btn li a {
+    color: #74cfae;
+    display: block;
+    padding: 30px;
   }
 
   .footer {
@@ -387,34 +393,35 @@
   }
 
   .separator-inner {
-    padding-top: 50px;
-    padding-bottom: 25px;
+    padding: 50px 0 25px;
   }
 
   .description {
-    margin-top: 20px;
+    margin: 0 auto;
+    width: 80%;
   }
+
 
   .description-title {
     color: #fff;
     font-size: 24px;
+    margin-top: 20px;
   }
 
   .description-title-lead {
     color: #fff;
     font-size: 20px;
     line-height: 1.5;
-    padding-top: 35px;
-    margin: 0 auto;
-    width: 82%;
+    margin-top: 35px;
   }
 
   .content-inner {
-    padding: 60px 0 70px 0;
+    padding: 50px 0 70px 0;
   }
 
   .content-heading__text {
     font-size: 24px;
+    margin-top: 10px;
   }
 
   .content__item__wrap {
@@ -439,12 +446,9 @@
     display: inline-block;
   }
 
-  .content__detail {
-    margin-top: 80px;
-  }
-
   .content-headline {
     line-height: 1.5;
+    margin-top: 80px;
   }
 
   .content-headline__text {
@@ -475,12 +479,18 @@
   }
 
   .content__list-inner {
-    padding: 70px 0 100px 0;
+    padding: 50px 0 100px 0;
   }
 
   .content__list__text {
     color: #fff;
     font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .item-wrap {
+    margin-top: 40px;
+    justify-content: space-around;
   }
 
   .item-wrap li {
@@ -491,35 +501,36 @@
     margin-top: 0px;
   }
 
-  .content__skill .item-wrap figcaption {
+  .item-wrap figcaption {
     font-size: 16px;
     color: #fff;
     margin-top: 10px;
   }
 
-  .content__skill .item-wrap {
-    margin-top: 40px;
-    justify-content: space-around;
-  }
-
   .nav-inner__btn {
     display: flex;
     justify-content: center;
-    padding: 200px 0px;
+    padding: 200px 0;
   }
 
-  .nav-inner__btn .sns {
+  .nav-inner__btn li {
     background: transparent;
     color: #74cfae;
+    display: block;
     transition: 0.3s;
-    padding: 30px 0;
     width: 185px;
   }
 
-  .nav-inner__btn .sns:hover {
+  .nav-inner__btn li:hover {
     background-color: #fff;
     color: #74cfae;
     cursor: pointer;
+  }
+
+  .nav-inner__btn li a {
+    color: #74cfae;
+    display: block;
+    padding: 30px;
   }
 
   .footer {
@@ -546,8 +557,8 @@
   .show-sp {display: block;}
 
   body {
-    font-family: "lato";	
-    background-color: #f2f2f2;
+      font-family: "lato";	
+      background-color: #f2f2f2;
     }
   
   .is-raleway {
@@ -578,7 +589,7 @@
   }
 
   .header-inner {
-    padding: 15px 0;
+    padding: 15px;
   }
 
   .header-inner__icon {
@@ -629,11 +640,11 @@
   }
 
   .main {
-    padding-top: 78px;
+    padding-top: 73px;
   }
 
   .mv-inner {
-    padding: 160px 0 130px 0;
+    padding: 50px 0 130px 0;
     width: 100%;
   }
 
@@ -641,6 +652,7 @@
     color: #74cfae;
     font-weight: 700;
     font-size: 80px;
+    margin-top: 110px;
   }
 
   .theme-sub__text {
@@ -653,34 +665,34 @@
   }
 
   .separator-inner {
-    padding-top: 50px;
-    padding-bottom: 25px;
+    padding: 50px 0 25px 0;
   }
 
   .description {
-    margin-top: 20px;
+    margin: 0 auto;
+    width: 90%;
   }
 
   .description-title {
     color: #fff;
     font-size: 24px;
+    margin-top: 20px;
   }
 
   .description-title-lead {
     color: #fff;
     font-size: 20px;
     line-height: 1.5;
-    padding-top: 35px;
-    margin: 0 auto;
-    width: 82%;
+    margin-top: 35px;
   }
 
   .content-inner {
-    padding: 60px 0 70px 0;
+    padding: 50px 0 70px 0;
   }
 
   .content-heading__text {
     font-size: 24px;
+    margin-top: 10px;
   }
 
   .content__item__wrap {
@@ -705,12 +717,9 @@
     display: inline-block;
   }
 
-  .content__detail {
-    margin-top: 80px;
-  }
-
   .content-headline {
     line-height: 1.5;
+    margin-top: 80px;
   }
 
   .content-headline__text {
@@ -741,12 +750,18 @@
   }
 
   .content__list-inner {
-    padding: 70px 0 100px 0;
+    padding: 50px 0 100px 0;
   }
 
   .content__list__text {
     color: #fff;
     font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .item-wrap {
+    margin-top: 40px;
+    justify-content: space-around;
   }
 
   .item-wrap li {
@@ -756,16 +771,11 @@
   .item-wrap li:first-child {
     margin-top: 0px;
   }
-
-  .content__skill .item-wrap figcaption {
+  
+  .item-wrap figcaption {
     font-size: 16px;
     color: #fff;
     margin-top: 10px;
-  }
-
-  .content__skill .item-wrap {
-    margin-top: 40px;
-    justify-content: space-around;
   }
 
   .nav-inner__btn {
@@ -773,22 +783,24 @@
     justify-content: center;
   }
 
-  .nav-inner__btn .sns {
+  .nav-inner__btn li {
     background: transparent;
     color: #74cfae;
+    display: block;
     transition: 0.3s;
-    padding: 30px 0;
     width: 100%;
   }
 
-  .nav-inner__btn .sns:hover {
+  .nav-inner__btn li:hover {
     background-color: #fff;
     color: #74cfae;
     cursor: pointer;
   }
 
-  .nav-inner__btn a {
-    display: block; 
+  .nav-inner__btn li a {
+    color: #74cfae;
+    display: block;
+    padding: 30px;
   }
 
   .footer {
